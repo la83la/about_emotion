@@ -1,64 +1,64 @@
 ,combination,MAPE,Direction
-0,"['Calm', 'Close']",1.645,44%
-1,"['Kind', 'Close']",2.54,56%
-2,"['Happy', 'Close']",1.089,31%
-3,"['Alert', 'Close']",3.513,44%
-4,"['Sure', 'Close']",2.013,38%
-5,"['Vital', 'Close']",1.801,38%
-6,"['Calm', 'Kind', 'Close']",1.293,62%
-7,"['Calm', 'Happy', 'Close']",1.279,44%
-8,"['Calm', 'Alert', 'Close']",1.664,25%
-9,"['Calm', 'Sure', 'Close']",1.257,44%
-10,"['Calm', 'Vital', 'Close']",1.426,25%
-11,"['Kind', 'Happy', 'Close']",2.296,44%
-12,"['Kind', 'Alert', 'Close']",1.533,44%
-13,"['Kind', 'Sure', 'Close']",1.238,31%
-14,"['Kind', 'Vital', 'Close']",1.324,31%
-15,"['Happy', 'Alert', 'Close']",1.105,44%
-16,"['Happy', 'Sure', 'Close']",2.096,38%
-17,"['Happy', 'Vital', 'Close']",1.189,31%
-18,"['Alert', 'Sure', 'Close']",1.998,38%
-19,"['Alert', 'Vital', 'Close']",1.702,44%
-20,"['Sure', 'Vital', 'Close']",1.983,44%
-21,"['Calm', 'Kind', 'Happy', 'Close']",1.341,38%
-22,"['Calm', 'Kind', 'Alert', 'Close']",1.473,56%
-23,"['Calm', 'Kind', 'Sure', 'Close']",1.223,38%
-24,"['Calm', 'Kind', 'Vital', 'Close']",1.107,38%
-25,"['Calm', 'Happy', 'Alert', 'Close']",1.092,38%
-26,"['Calm', 'Happy', 'Sure', 'Close']",1.378,44%
-27,"['Calm', 'Happy', 'Vital', 'Close']",1.199,25%
-28,"['Calm', 'Alert', 'Sure', 'Close']",1.249,56%
-29,"['Calm', 'Alert', 'Vital', 'Close']",1.081,31%
-30,"['Calm', 'Sure', 'Vital', 'Close']",1.098,31%
-31,"['Kind', 'Happy', 'Alert', 'Close']",1.329,50%
-32,"['Kind', 'Happy', 'Sure', 'Close']",1.902,38%
-33,"['Kind', 'Happy', 'Vital', 'Close']",2.709,50%
-34,"['Kind', 'Alert', 'Sure', 'Close']",1.181,38%
-35,"['Kind', 'Alert', 'Vital', 'Close']",1.155,62%
-36,"['Kind', 'Sure', 'Vital', 'Close']",2.488,44%
-37,"['Happy', 'Alert', 'Sure', 'Close']",1.046,50%
-38,"['Happy', 'Alert', 'Vital', 'Close']",1.264,31%
-39,"['Happy', 'Sure', 'Vital', 'Close']",1.5,25%
-40,"['Alert', 'Sure', 'Vital', 'Close']",2.222,25%
-41,"['Calm', 'Kind', 'Happy', 'Alert', 'Close']",1.072,56%
-42,"['Calm', 'Kind', 'Happy', 'Sure', 'Close']",1.243,44%
-43,"['Calm', 'Kind', 'Happy', 'Vital', 'Close']",1.006,44%
-44,"['Calm', 'Kind', 'Alert', 'Sure', 'Close']",1.798,44%
-45,"['Calm', 'Kind', 'Alert', 'Vital', 'Close']",1.173,44%
-46,"['Calm', 'Kind', 'Sure', 'Vital', 'Close']",1.185,38%
-47,"['Calm', 'Happy', 'Alert', 'Sure', 'Close']",1.051,56%
-48,"['Calm', 'Happy', 'Alert', 'Vital', 'Close']",0.865,31%
-49,"['Calm', 'Happy', 'Sure', 'Vital', 'Close']",1.265,19%
-50,"['Calm', 'Alert', 'Sure', 'Vital', 'Close']",0.915,31%
-51,"['Kind', 'Happy', 'Alert', 'Sure', 'Close']",1.814,50%
-52,"['Kind', 'Happy', 'Alert', 'Vital', 'Close']",1.776,69%
-53,"['Kind', 'Happy', 'Sure', 'Vital', 'Close']",1.237,44%
-54,"['Kind', 'Alert', 'Sure', 'Vital', 'Close']",1.771,56%
-55,"['Happy', 'Alert', 'Sure', 'Vital', 'Close']",1.008,31%
-56,"['Calm', 'Kind', 'Happy', 'Alert', 'Sure', 'Close']",0.976,38%
-57,"['Calm', 'Kind', 'Happy', 'Alert', 'Vital', 'Close']",0.943,38%
-58,"['Calm', 'Kind', 'Happy', 'Sure', 'Vital', 'Close']",1.069,38%
-59,"['Calm', 'Kind', 'Alert', 'Sure', 'Vital', 'Close']",1.056,31%
-60,"['Calm', 'Happy', 'Alert', 'Sure', 'Vital', 'Close']",1.501,31%
-61,"['Kind', 'Happy', 'Alert', 'Sure', 'Vital', 'Close']",1.271,44%
-62,"['Calm', 'Kind', 'Happy', 'Alert', 'Sure', 'Vital', 'Close']",1.326,38%
+0,"('Calm',)",1.488,0.5
+1,"('Kind',)",2.023,0.375
+2,"('Happy',)",1.026,0.25
+3,"('Alert',)",2.537,0.3125
+4,"('Sure',)",2.125,0.5
+5,"('Vital',)",1.871,0.1875
+6,"('Calm', 'Kind')",1.532,0.5625
+7,"('Calm', 'Happy')",1.435,0.4375
+8,"('Calm', 'Alert')",1.124,0.4375
+9,"('Calm', 'Sure')",1.135,0.3125
+10,"('Calm', 'Vital')",0.961,0.25
+11,"('Kind', 'Happy')",1.351,0.4375
+12,"('Kind', 'Alert')",2.123,0.5
+13,"('Kind', 'Sure')",1.403,0.375
+14,"('Kind', 'Vital')",1.155,0.375
+15,"('Happy', 'Alert')",1.34,0.25
+16,"('Happy', 'Sure')",1.089,0.375
+17,"('Happy', 'Vital')",0.981,0.3125
+18,"('Alert', 'Sure')",1.995,0.3125
+19,"('Alert', 'Vital')",1.753,0.375
+20,"('Sure', 'Vital')",1.806,0.5
+21,"('Calm', 'Kind', 'Happy')",1.141,0.4375
+22,"('Calm', 'Kind', 'Alert')",1.809,0.5
+23,"('Calm', 'Kind', 'Sure')",1.752,0.375
+24,"('Calm', 'Kind', 'Vital')",1.0,0.4375
+25,"('Calm', 'Happy', 'Alert')",1.149,0.5
+26,"('Calm', 'Happy', 'Sure')",0.905,0.3125
+27,"('Calm', 'Happy', 'Vital')",1.079,0.25
+28,"('Calm', 'Alert', 'Sure')",1.153,0.5625
+29,"('Calm', 'Alert', 'Vital')",1.355,0.4375
+30,"('Calm', 'Sure', 'Vital')",1.291,0.25
+31,"('Kind', 'Happy', 'Alert')",1.263,0.5625
+32,"('Kind', 'Happy', 'Sure')",1.175,0.25
+33,"('Kind', 'Happy', 'Vital')",1.274,0.625
+34,"('Kind', 'Alert', 'Sure')",1.799,0.5
+35,"('Kind', 'Alert', 'Vital')",1.519,0.5625
+36,"('Kind', 'Sure', 'Vital')",2.225,0.4375
+37,"('Happy', 'Alert', 'Sure')",1.056,0.3125
+38,"('Happy', 'Alert', 'Vital')",1.322,0.375
+39,"('Happy', 'Sure', 'Vital')",0.978,0.25
+40,"('Alert', 'Sure', 'Vital')",1.832,0.5
+41,"('Calm', 'Kind', 'Happy', 'Alert')",1.622,0.375
+42,"('Calm', 'Kind', 'Happy', 'Sure')",1.026,0.375
+43,"('Calm', 'Kind', 'Happy', 'Vital')",1.214,0.375
+44,"('Calm', 'Kind', 'Alert', 'Sure')",0.909,0.5625
+45,"('Calm', 'Kind', 'Alert', 'Vital')",1.95,0.5625
+46,"('Calm', 'Kind', 'Sure', 'Vital')",0.95,0.4375
+47,"('Calm', 'Happy', 'Alert', 'Sure')",1.234,0.4375
+48,"('Calm', 'Happy', 'Alert', 'Vital')",0.87,0.3125
+49,"('Calm', 'Happy', 'Sure', 'Vital')",1.67,0.375
+50,"('Calm', 'Alert', 'Sure', 'Vital')",0.917,0.25
+51,"('Kind', 'Happy', 'Alert', 'Sure')",1.267,0.5
+52,"('Kind', 'Happy', 'Alert', 'Vital')",1.39,0.75
+53,"('Kind', 'Happy', 'Sure', 'Vital')",2.03,0.5
+54,"('Kind', 'Alert', 'Sure', 'Vital')",1.243,0.5625
+55,"('Happy', 'Alert', 'Sure', 'Vital')",0.934,0.375
+56,"('Calm', 'Kind', 'Happy', 'Alert', 'Sure')",1.613,0.5
+57,"('Calm', 'Kind', 'Happy', 'Alert', 'Vital')",1.491,0.375
+58,"('Calm', 'Kind', 'Happy', 'Sure', 'Vital')",1.083,0.375
+59,"('Calm', 'Kind', 'Alert', 'Sure', 'Vital')",1.426,0.5
+60,"('Calm', 'Happy', 'Alert', 'Sure', 'Vital')",1.185,0.3125
+61,"('Kind', 'Happy', 'Alert', 'Sure', 'Vital')",1.224,0.4375
+62,"('Calm', 'Kind', 'Happy', 'Alert', 'Sure', 'Vital')",0.879,0.375
