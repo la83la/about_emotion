@@ -2,7 +2,7 @@
     
 ### Apply Sentiment Analysis on forum corpus data, and used it for stock market trend prediction.
 
-There is two parts of this project: English and Chinese.
+There is two parts in this project: English and Chinese.
     
 
 <!-- Badges -->
