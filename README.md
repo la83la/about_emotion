@@ -17,7 +17,7 @@ There is two parts of this project: English and Chinese.
 
 ## English derivative
 
-Applied **Opinion Finder**, **GPOMS** and **bi-LSTM** on large-scale Twitter feed to conduct sentiment analysis, model achieved 75% accuracy and 0.9% MAPE in stock market index trend forecasting.
+Applied **Opinion Finder**, **GPOMS** and **bi-LSTM** on large-scale Twitter feed to conduct sentiment analysis, and used it for market index trend forecasting.
 
 **Google-Profile Of Mood States (GPOMS)** is an extended version of POMS-bi. It is based on a lexicon of 964 terms and can measure human mood states in six mood dimensions : Calm, Alert, Sure, Vital,
 Kind and Happy, it scaled from -1 to 1 for each dimensions.
