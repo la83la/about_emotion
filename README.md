@@ -11,7 +11,7 @@ There is two parts in this project: English and Chinese.
     <img src="https://img.shields.io/badge/contributors-2-yellow" alt="contributors" />
   </a>
   <a href="">
-    <img src="https://img.shields.io/badge/last%20update-November%2017th-green" alt="last update" />
+    <img src="https://img.shields.io/badge/last%20update-November%202022-green" alt="last update" />
   </a>
 </p>
 
