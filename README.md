@@ -1,4 +1,4 @@
-# Stock Market Prediction Using Sentiment Analysis on Twitter(In progress)
+# Stock Market Prediction Using Sentiment Analysis on Twitter (In progress)
     
 ### Apply Sentiment Analysis on forum corpus data, and used it for stock market trend prediction.
 
