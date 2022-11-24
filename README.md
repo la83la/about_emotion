@@ -1,20 +1,17 @@
-<div align="center">
-
-    <h1>Stock Market Prediction Using Sentiment Analysis on Twitter(In progress)</h1>
+# Stock Market Prediction Using Sentiment Analysis on Twitter(In progress)
     
-    <p>Apply Sentiment Analysis on forum corpus data, and used it for stock market trend prediction.
+### Apply Sentiment Analysis on forum corpus data, and used it for stock market trend prediction.
 
-    There is two parts of this project: English and Chinese.</p>
+There is two parts of this project: English and Chinese.
     
-</div>
 
 <!-- Badges -->
 <p>
   <a href="">
-    <img src="https://img.shields.io/github/contributors/Louis3797/awesome-readme-template" alt="contributors" />
+    <img src="https://img.shields.io/badge/contributors-2-yellow" alt="contributors" />
   </a>
   <a href="">
-    <img src="https://img.shields.io/github/last-commit/Louis3797/awesome-readme-template" alt="last update" />
+    <img src="https://img.shields.io/badge/last%20update-November%2017th-green" alt="last update" />
   </a>
 </p>
 
