@@ -19,8 +19,7 @@ There is two parts in this project: English and Chinese.
 
 Applied **Opinion Finder**, **GPOMS** and **bi-LSTM** on large-scale Twitter feed to conduct sentiment analysis, and used it for market index trend forecasting.
 
-**Google-Profile Of Mood States (GPOMS)** is an extended version of POMS-bi. It is based on a lexicon of 964 terms and can measure human mood states in six mood dimensions : Calm, Alert, Sure, Vital,
-Kind and Happy, it scaled from -1 to 1 for each dimensions.
+**Google-Profile Of Mood States (GPOMS)** is an extended version of POMS-bi. It is based on a lexicon of 964 terms and can measure human mood states in six mood dimensions : **Calm, Alert, Sure, Vital, Kind and Happy**, it scaled from **-1 to 1** for each dimensions.
 
 **Opinion Finder** is a tool for sentiment analysis using 4 categories of sentiment lexicon.
 
@@ -44,7 +43,7 @@ Tweet size
 
 Sentiment analysis using GPOMS and Opinion Finder.
 
-**Alert** is the highest estimator in GPOMS analysis.
+**Sure** is the highest estimator in GPOMS analysis.
 
 ### Step 3: Granger Causality Analysis
 
