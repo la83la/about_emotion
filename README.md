@@ -44,7 +44,7 @@ Tweet size
 
 Sentiment analysis using GPOMS and Opinion Finder.
 
-Analysis result: **Alert** is the highest estimator in GPOMS analysis.
+**Alert** is the highest estimator in GPOMS analysis.
 
 ### Step 3: Granger Causality Analysis
 
@@ -71,7 +71,7 @@ Sentiment with causality (p-value < 0.05):
 
 Using **bi-LSTM** to build a time series model and estimate the confidence interval for the accuracy.
 
- | Opinion Finder | GPOMS-Alert | GPOMS-Sure | GPOMS-Alert+Sure | GPOMS-Alert+Vital
+--- | Opinion Finder | GPOMS-Alert | GPOMS-Sure | GPOMS-Alert+Sure | GPOMS-Alert+Vital
 --- | --- | ---
 MAPE | 1.57% | 1.7% | **0.9%** | 1.75% | 1.59%
 Directional accuracy | 65% | 64% | **75%** |  60% | 56 %
