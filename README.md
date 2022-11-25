@@ -22,7 +22,7 @@ Applied **Opinion Finder**, **GPOMS** and **bi-LSTM** on large-scale Twitter fee
 **Google-Profile Of Mood States (GPOMS)** is an extended version of POMS-bi. It is based on a lexicon of 964 terms and can measure human mood states in six mood dimensions : Calm, Alert, Sure, Vital,
 Kind and Happy, it scaled from -1 to 1 for each dimensions.
 
-**Opinion Finder** is a tool for sentiment analysis using 4 emotional lexicons.
+**Opinion Finder** is a tool for sentiment analysis using 4 categories of sentiment lexicon.
 
 ### Step 1: Data Preprocessing
 
@@ -30,11 +30,17 @@ Kind and Happy, it scaled from -1 to 1 for each dimensions.
 
 Conducting data pre-processing onto twitter feeds.
 
+Size of data | Duration 
+--- | --- 
+923673 | 2020/04/09 ~ 2020/07/16 (77 days)
+
 ### Step 2: Sentiment Analysis 
 
 > 2_GPOMS_SA.ipynb / 2_Opinion_Finder_SA.ipynb
 
 Sentiment analysis using **GPOMS** and **Opinion Finder**.
+
+**Analysis result:** Alert is the highest estimator among 77 days
 
 ### Step 3: Granger Causality Analysis
 
@@ -42,11 +48,26 @@ Sentiment analysis using **GPOMS** and **Opinion Finder**.
 
 Using **Granger Causality** to detect whether there is correlation in time series.
 
+Granger Causality test is used to determine whether or not one time series is useful for forecasting another. This test uses the following null and alternative hypotheses:
+
+* Null Hypothesis (H0): Time series x does not Granger-cause time series y
+* Alternative Hypothesis (HA): Time series x Granger-causes time series y
+
+If the p-value is less than a certain significance level (i.e. α = .05), then we can reject the null hypothesis and conclude that we have sufficient evidence to say that time series x Granger-causes time series y. In this chapter, we use the processed sentiment values as x-column, to calculate its relationship with the stock prices(as y-column).
+
+Sentiment with causality (p-value < 0.05):
+
+1. Sure
+2. Alert
+
+
 ### Step 4: Build Time Series Forecast Model
 
 > 4_GPOMS_LSTM.ipynb / 4_OF_LSTM.ipynb
 
 Using **bi-LSTM** to build a time series model and estimate the confidence interval for the accuracy.
+
+
 
 ### Step 5: Portfolio Management
 
