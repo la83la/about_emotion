@@ -71,10 +71,10 @@ Sentiment with causality (p-value < 0.05):
 
 Using **bi-LSTM** to build a time series model and estimate the confidence interval for the accuracy.
 
- | Opinion Finder | GPOMS-Alert | GPOMS-Sure | GPOMS-Alert+Sure | GPOMS-Alert+Vital
---- | --- | --- | --- | --- | ---
-MAPE | 1.57% | 1.7% | **0.9%** | 1.75% | 1.59%
-Directional accuracy | 65% | 64% | **75%** |  60% | 56 %
+|                      | Opinion Finder | GPOMS-Alert | GPOMS-Sure | GPOMS-Alert+Sure | GPOMS-Alert+Vital |
+|:--------------------:|:--------------:|:-----------:|:----------:|:----------------:|:-----------------:|
+|         MAPE         |      1.57%     |     1.7%    |  **0.9%**  |       1.75%      |       1.59%       |
+| Directional accuracy |       65%      |     64%     |   **75%**  |        60%       |        56%        |
 
 ![alt text](https://github.com/la83la/about_emotion/blob/main/English_derivative/model%20result.png "Model result")
 
