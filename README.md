@@ -34,13 +34,17 @@ Size of data | Duration
 --- | --- 
 923673 | 2020/04/09 ~ 2020/07/16 (77 days)
 
+![alt text](https://github.com/la83la/about_emotion/blob/main/English_derivative/tweets_size.png "Tweet size")
+
+Tweet size
+
 ### Step 2: Sentiment Analysis 
 
 > 2_GPOMS_SA.ipynb / 2_Opinion_Finder_SA.ipynb
 
-Sentiment analysis using **GPOMS** and **Opinion Finder**.
+Sentiment analysis using GPOMS and Opinion Finder.
 
-**Analysis result:** Alert is the highest estimator among 77 days
+Analysis result: **Alert** is the highest estimator in GPOMS analysis.
 
 ### Step 3: Granger Causality Analysis
 
@@ -67,7 +71,9 @@ Sentiment with causality (p-value < 0.05):
 
 Using **bi-LSTM** to build a time series model and estimate the confidence interval for the accuracy.
 
+![alt text](https://github.com/la83la/about_emotion/blob/main/English_derivative/model%20result.png "Model result")
 
+Model result
 
 ### Step 5: Portfolio Management
 
