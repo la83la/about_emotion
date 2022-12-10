@@ -42,6 +42,7 @@ Tweet size
 ### Step 2: Sentiment Analysis 
 
 > 2_GPOMS_SA.ipynb 
+
 > 2_Opinion_Finder_SA.ipynb
 
 Sentiment analysis using GPOMS and Opinion Finder.
@@ -70,6 +71,7 @@ Sentiment with causality (p-value < 0.05):
 ### Step 4: Build Time Series Forecast Model
 
 > 4_GPOMS_LSTM.ipynb 
+
 > 4_OF_LSTM.ipynb
 
 Using **bi-LSTM** to build a time series model and estimate the confidence interval for the accuracy.
@@ -101,7 +103,9 @@ Project Related Charts
 
 We crawl articles and pictures from news, facebook post and other sources every week as the corpus for our analysis.
 > News_crawler.ipynb 
+
 > Picture_crawler.ipynb 
+
 > Facebook_Crawler.ipynb
 
 ### Sentiment Analysis
