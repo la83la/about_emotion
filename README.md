@@ -5,6 +5,8 @@
 There is two parts in this project: English and Chinese.
     
 
+
+
 <!-- Badges -->
 <p>
   <a href="">
@@ -39,7 +41,8 @@ Tweet size
 
 ### Step 2: Sentiment Analysis 
 
-> 2_GPOMS_SA.ipynb / 2_Opinion_Finder_SA.ipynb
+> 2_GPOMS_SA.ipynb 
+> 2_Opinion_Finder_SA.ipynb
 
 Sentiment analysis using GPOMS and Opinion Finder.
 
@@ -66,7 +69,8 @@ Sentiment with causality (p-value < 0.05):
 
 ### Step 4: Build Time Series Forecast Model
 
-> 4_GPOMS_LSTM.ipynb / 4_OF_LSTM.ipynb
+> 4_GPOMS_LSTM.ipynb 
+> 4_OF_LSTM.ipynb
 
 Using **bi-LSTM** to build a time series model and estimate the confidence interval for the accuracy.
 
@@ -94,18 +98,31 @@ Project Related Charts
 ## Chinese derivative (In progress)
 
 ### Crawler
-Chinese news and cover image crawler.
-> News_crawler.ipynb / Picture_crawler.ipynb
 
-### Preprocessing
+We crawl articles and pictures from news, facebook post and other sources every week as the corpus for our analysis.
+> News_crawler.ipynb 
+> Picture_crawler.ipynb 
+> Facebook_Crawler.ipynb
 
-Emoji Processing:
-> Frequency_word_classification.ipynb
+### Sentiment Analysis
 
-text Processing: 
-> preprocess(C).ipynb
+At this stage, we pre-process and segment the text and emoji. 
+Sentiment analysis was performed after reading in two different scoring systems.
+> NTUSD_Sentiment_Analysis.ipynb
+> Opinion_Finder_Sentiment_Analysis.ipynb
 
-### Word Frequency
+![alt text](https://github.com/la83la/about_emotion/blob/main/English_derivative/model%20result.png "Analysis result")
 
-Calculate word frequency
-> NewsWordFrquency.ipynb / Frequency_word_classification.ipynb
+### Fake News detection
+
+Due to the diversity of data sources, we perform fake news detection at this stage, and compare the effectiveness with the raw data.
+> False_News_Detection.ipynb
+
+
+
+
+
+
+
+
+
