@@ -111,7 +111,7 @@ Sentiment analysis was performed after reading in two different scoring systems.
 > NTUSD_Sentiment_Analysis.ipynb
 > Opinion_Finder_Sentiment_Analysis.ipynb
 
-![alt text](https://github.com/la83la/about_emotion/blob/main/English_derivative/model%20result.png "Analysis result")
+![alt text](https://github.com/la83la/about_emotion/blob/main/Chinese_derivative/Sentiment_Analysis/NTUSD_result.png "Analysis result")
 
 ### Fake News detection
 
